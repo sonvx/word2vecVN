@@ -1,0 +1,24 @@
+{% block content %}
+<div class="search">
+<form action="/search" method=post>
+    <input type=text name=search value="{{ request.form.search}}"></br>
+    <div class="actions"><input type=submit value="Search"></div>
+</form>
+</div>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+    <meta charset="UTF-8">
+    <title>Vietnamese Word2Vec</title>
+</head>
+
+{% for page in pages %}
+<p>{{ page }}</p>
+{% endfor %}
+
+{% for message in get_flashed_messages() %}
+<div class=flash>
+    {{ message }}
+</div>
+{% endfor %}
+{% endblock %}
