@@ -37,4 +37,5 @@ Supervisor: Assistant Professor Kevin Duh.
 	+ Special characters should be excluded from JSON files to generate the correct JSON format. More details are in "Remove_Special_Characters.txt" file.
 
 - For Vietnamese:
-	+ I am testing the UI by quickly replacing English dict with a Vietnamese dict. It doesn't work already so there must be encoding problems. Feel free to test with vi_data_euclidean_skipgram_tiny.json/vi_data_cosine_skipgram_tiny.json.
+	+ I am testing the UI by quickly replacing English dict with a Vietnamese dict. It doesn't work already so there must be encoding problems. Feel free to test with /frontend/data/vi_....json
+	+ Please send a request to commit any changes that can fix the bug. Feel free to use simple UI instead if you don't know how to fix this problem.
