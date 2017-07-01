@@ -46,7 +46,6 @@ if __name__ == "__main__":
     dir_path = os.path.dirname(os.path.realpath(__file__))
     # download from https://drive.google.com/open?id=0B1GKSX6YCHXlakkzQ2plZVdUUE0
     model = dir_path + '/data/wiki.vi.model.bin'
-    word2vec_model = None
 
     if os.path.isfile(model):
         print 'Loading word2vec model ...'
