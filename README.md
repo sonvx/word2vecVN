@@ -6,3 +6,17 @@ Word2Vec model for Vietnamese
 	+ word2vec-simple-visualization: It is working well. Please read the readme file inside that folder to know how to test the model.
 - For English and JP: Use the original project at https://github.com/pvthuy/word2vec-visualization
 - Note: This model is trained using data of Le et al. http://mim.hus.vnu.edu.vn/phuonglh/node/72
+
+### Citation
+```
+  @misc{word2vecvn_2016,
+    author = {Xuan-Son Vu},
+    title = {Word2Vec model for Vietnamese},
+    year = {2016},
+    howpublished = {\url{https://github.com/sonvx/word2vecVN}},
+    note = {commit xxxxxxx}
+  }
+```
+
+### Attributions/Thanks
+- This project could not have happened without the data of Le et al. http://mim.hus.vnu.edu.vn/phuonglh/node/72

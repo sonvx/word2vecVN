@@ -4,7 +4,7 @@ from flask import Flask, render_template, abort, request, jsonify
 from flask import request, redirect, url_for
 import codecs
 import gensim
-from gensim.models import Word2Vec
+from distutils.version import LooseVersion, StrictVersion
 
 
 app = Flask(__name__)
@@ -46,9 +46,17 @@ if __name__ == "__main__":
     dir_path = os.path.dirname(os.path.realpath(__file__))
     # download from https://drive.google.com/open?id=0B1GKSX6YCHXlakkzQ2plZVdUUE0
     model = dir_path + '/data/wiki.vi.model.bin'
+    word2vec_model = None
+
     if os.path.isfile(model):
         print 'Loading word2vec model ...'
-        word2vec_model = Word2Vec.load_word2vec_format(model, binary=True)
+	if LooseVersion(gensim.__version__) >= LooseVersion("1.0.1"):
+	    from gensim.models import KeyedVectors
+	    word2vec_model = KeyedVectors.load_word2vec_format(model, binary=True)
+	else:
+	    from gensim.models import Word2Vec
+            word2vec_model = Word2Vec.load_word2vec_format(model, binary=True)
+	    
         app.run(port=8089)
     else:
         print "Download word2vec model and put into ./data/. File: https://drive.google.com/open?id=0B1GKSX6YCHXlakkzQ2plZVdUUE0"
