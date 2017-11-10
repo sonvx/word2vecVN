@@ -7,9 +7,6 @@ Word2Vec model for Vietnamese
 - For English and JP: Use the original project at https://github.com/pvthuy/word2vec-visualization
 - Note: This model is trained using data of Le et al. http://mim.hus.vnu.edu.vn/phuonglh/node/72
 
-# Screenshot
-![Alt text](https://raw.githubusercontent.com/sonvx/word2vecVN/master/word2vec-simple-visualization/images/w2v_vn.png "Screenshot example of one given input")
-      
 ### Citation
 ```
   @misc{word2vecvn_2016,
@@ -20,6 +17,10 @@ Word2Vec model for Vietnamese
     note = {commit xxxxxxx}
   }
 ```
+
+# Screenshot
+![Alt text](https://raw.githubusercontent.com/sonvx/word2vecVN/master/word2vec-simple-visualization/images/w2v_vn.png "Screenshot example of one given input")
+      
 
 ### Attributions/Thanks
 - This project could not have happened without the data of Le et al. http://mim.hus.vnu.edu.vn/phuonglh/node/72
