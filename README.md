@@ -11,7 +11,7 @@ Word2Vec model for Vietnamese
 ```
   @misc{word2vecvn_2016,
     author = {Xuan-Son Vu},
-    title = {Word2Vec model for Vietnamese},
+    title = {Pre-trained Word2Vec model for Vietnamese},
     year = {2016},
     howpublished = {\url{https://github.com/sonvx/word2vecVN}},
     note = {commit xxxxxxx}
