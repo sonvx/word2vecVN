@@ -20,6 +20,7 @@ Word2Vec models for Vietnamese
 
 # Screenshot
 ![Alt text](https://raw.githubusercontent.com/sonvx/word2vecVN/master/word2vec-simple-visualization/images/w2v_vn.png "Screenshot example of one given input")
+![Alt text](https://raw.githubusercontent.com/sonvx/word2vecVN/master/images/spacy_example.png "Screenshot example of spacy and fastext")
       
 
 ### Attributions/Thanks
