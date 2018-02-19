@@ -1,5 +1,5 @@
 # word2vecVN
-Word2Vec model for Vietnamese
+Word2Vec models for Vietnamese
 - For Vietnamese:
 	+ word2vec-visualization: I am testing the UI by quickly replacing English dict with a Vietnamese dict. It doesn't work already so there must be encoding problems. Feel free to test with ./word2vec-visualization/frontend/data/vi_*.json. Please send a request to commit any changes that can fix the bug. Feel free to use the simple UI instead if you don't know how to fix this problem or don't have time to check on it.
 
@@ -11,7 +11,7 @@ Word2Vec model for Vietnamese
 ```
   @misc{word2vecvn_2016,
     author = {Xuan-Son Vu},
-    title = {Pre-trained Word2Vec model for Vietnamese},
+    title = {Pre-trained Word2Vec models for Vietnamese},
     year = {2016},
     howpublished = {\url{https://github.com/sonvx/word2vecVN}},
     note = {commit xxxxxxx}
