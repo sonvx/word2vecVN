@@ -6,7 +6,7 @@ Word2Vec models for Vietnamese
 - Model trained on Le et al.'s data (window-size 2, 300 dims): [click here](https://drive.google.com/open?id=1LV9z1RXkEg0niuC15jcW2JeeYDilXiiC).
 ## Visualization:
 - word2vec-visualization (using TensorBoard):
-	+ Download tf\_files: [click here](tba)
+	+ Download tf\_files: [TBA](tba)
 	+ Run $ tensorboard --logs=./<path-to-the-folder> --port=10001
 - word2vec-simple-visualization: It is working well. Please read the readme file inside that folder to know how to test the model.
 ## Note: 
@@ -24,9 +24,9 @@ Word2Vec models for Vietnamese
 ```
 
 # Screenshot of word2vec
-![Alt text](https://raw.githubusercontent.com/sonvx/word2vecVN/master/images/w2vecVN_tb.png=250x "Screenshot example of one given input")
+![Alt text](https://raw.githubusercontent.com/sonvx/word2vecVN/master/images/w2vecVN_tb.png "Screenshot example of one given input")
 # Screenshot of spacy-n-fastext
-![Alt text](https://raw.githubusercontent.com/sonvx/word2vecVN/master/images/spacy_example.png=250x "Screenshot example of spacy and fastext")
+![Alt text](https://raw.githubusercontent.com/sonvx/word2vecVN/master/images/spacy_example.png "Screenshot example of spacy and fastext")
       
 
 ### Attributions/Thanks
