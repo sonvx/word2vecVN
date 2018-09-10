@@ -1,11 +1,16 @@
 # word2vecVN
 Word2Vec models for Vietnamese
-- For Vietnamese:
-	+ word2vec-visualization: I am testing the UI by quickly replacing English dict with a Vietnamese dict. It doesn't work already so there must be encoding problems. Feel free to test with ./word2vec-visualization/frontend/data/vi_*.json. Please send a request to commit any changes that can fix the bug. Feel free to use the simple UI instead if you don't know how to fix this problem or don't have time to check on it.
-
-	+ word2vec-simple-visualization: It is working well. Please read the readme file inside that folder to know how to test the model.
-- For English and JP: Use the original project at https://github.com/pvthuy/word2vec-visualization
-- Note: This model is trained using data of Le et al. http://mim.hus.vnu.edu.vn/phuonglh/node/72
+## Download models:
+- Model trained on Vietnamese Wiki: [click here](https://drive.google.com/open?id=0B1GKSX6YCHXlakkzQ2plZVdUUE0).
+- Model trained on Le et al.'s data (window-size 5, 400 dims): [click here](https://drive.google.com/open?id=0B1GKSX6YCHXlMTVZNkFEYzRyd1E).
+- Model trained on Le et al.'s data (window-size 2, 300 dims): [click here](https://drive.google.com/open?id=1LV9z1RXkEg0niuC15jcW2JeeYDilXiiC).
+## Visualization:
+- word2vec-visualization (using TensorBoard):
+	+ Download tf\_files: [click here](tba)
+	+ Run $ tensorboard --logs=./<path-to-the-folder> --port=10001
+- word2vec-simple-visualization: It is working well. Please read the readme file inside that folder to know how to test the model.
+## Note: 
+-  This model is trained using data of Le et al. http://mim.hus.vnu.edu.vn/phuonglh/node/72
 
 ### Citation
 ```
@@ -19,9 +24,9 @@ Word2Vec models for Vietnamese
 ```
 
 # Screenshot of word2vec
-![Alt text](https://raw.githubusercontent.com/sonvx/word2vecVN/master/images/w2vecVN_tb.png "Screenshot example of one given input")
+![Alt text](https://raw.githubusercontent.com/sonvx/word2vecVN/master/images/w2vecVN_tb.png "Screenshot example of one given input" =250x)
 # Screenshot of spacy-n-fastext
-![Alt text](https://raw.githubusercontent.com/sonvx/word2vecVN/master/images/spacy_example.png "Screenshot example of spacy and fastext")
+![Alt text](https://raw.githubusercontent.com/sonvx/word2vecVN/master/images/spacy_example.png "Screenshot example of spacy and fastext" =250x)
       
 
 ### Attributions/Thanks
