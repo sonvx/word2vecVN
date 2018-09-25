@@ -11,7 +11,7 @@ Word2Vec models for Vietnamese
 - word2vec-simple-visualization: It is working well. Please read the readme file inside that folder to know how to test the model.
 ## Note: 
 -  This model is trained using data of Le et al. http://mim.hus.vnu.edu.vn/phuonglh/node/72
-	+ Data information: 7.1G text with 1,675,819 word types from a corpus of 974,393,244 raw words and 97,440 sentences. Note that all words are tokenized words.
+	+ Data information: 7.1G text with 1,675,819 word types from a corpus of 974,393,244 raw words and 97,440 documents. Note that all words are tokenized words.
 
 
 ### Citation
