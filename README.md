@@ -14,7 +14,11 @@ Word2Vec models for Vietnamese
 	+ Data information: 7.1G text with 1,675,819 word types from a corpus of 974,393,244 raw words and 97,440 documents. Note that all words are tokenized words.
 
 
-### Citation
+## Cited in papers:
+> 1. Thanh Vu, Dat Quoc Nguyen, Dai Quoc Nguyen, Mark Dras and Mark Johnson. 2018. VnCoreNLP: A Vietnamese Natural Language Processing Toolkit. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Demonstrations, NAACL 2018, pages 56-60. [bibtext](http://aclweb.org/anthology/N18-5012.bib)
+
+
+## Citation
 ```
   @misc{word2vecvn_2016,
     author = {Xuan-Son Vu},
