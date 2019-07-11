@@ -13,14 +13,18 @@ Word2Vec models for Vietnamese
 -  This model is trained using data of Le et al. http://mim.hus.vnu.edu.vn/phuonglh/node/72
 	+ Data information: 7.1G text with 1,675,819 unique words from a corpus of 974,393,244 raw words and 97,440 documents. Note that all words are tokenized words.
 
+# II. How do I cite?
+Please CITE paper the Arxiv paper whenever ETNLP (or the pre-trained embeddings) is used to produce published results or incorporated into other software:
 
-## Cited in papers:
-> 1. Thanh Vu, Dat Quoc Nguyen, Dai Quoc Nguyen, Mark Dras and Mark Johnson. 2018. VnCoreNLP: A Vietnamese Natural Language Processing Toolkit. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Demonstrations, NAACL 2018, pages 56-60. [bibtext](http://aclweb.org/anthology/N18-5012.bib), [github](https://github.com/vncorenlp/VnCoreNLP)
-
-
-## Citation
 ```
-  @misc{word2vecvn_2016,
+@article{vu:2019n,
+  title={ETNLP: A Toolkit for Extraction, Evaluation and Visualization of Pre-trained Word Embeddings},
+  author={Xuan-Son Vu, Thanh Vu, Son N. Tran, Lili Jiang},
+  journal={arXiv preprint arXiv:1903.04433},
+  year={2019}
+  }
+  
+ @misc{word2vecvn_2016,
     author = {Xuan-Son Vu},
     title = {Pre-trained Word2Vec models for Vietnamese},
     year = {2016},
@@ -28,6 +32,11 @@ Word2Vec models for Vietnamese
     note = {commit xxxxxxx}
   }
 ```
+
+
+## Cited in papers:
+> 1. Thanh Vu, Dat Quoc Nguyen, Dai Quoc Nguyen, Mark Dras and Mark Johnson. 2018. VnCoreNLP: A Vietnamese Natural Language Processing Toolkit. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Demonstrations, NAACL 2018, pages 56-60. [bibtext](http://aclweb.org/anthology/N18-5012.bib), [github](https://github.com/vncorenlp/VnCoreNLP)
+
 
 # Screenshot of word2vec
 ![Alt text](https://raw.githubusercontent.com/sonvx/word2vecVN/master/images/w2vecVN_tb.png "Screenshot example of one given input")
