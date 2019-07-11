@@ -1,4 +1,4 @@
-# word2vecVN
+# I. word2vecVN
 Word2Vec models for Vietnamese
 ## Download models:
 - Model trained on Vietnamese Wiki: [click here](https://drive.google.com/open?id=0B1GKSX6YCHXlakkzQ2plZVdUUE0).
@@ -37,10 +37,10 @@ Please CITE paper the Arxiv paper whenever ETNLP (or the pre-trained embeddings)
 ## Cited in papers:
 > 1. Thanh Vu, Dat Quoc Nguyen, Dai Quoc Nguyen, Mark Dras and Mark Johnson. 2018. VnCoreNLP: A Vietnamese Natural Language Processing Toolkit. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Demonstrations, NAACL 2018, pages 56-60. [bibtext](http://aclweb.org/anthology/N18-5012.bib), [github](https://github.com/vncorenlp/VnCoreNLP)
 
-
-# Screenshot of word2vec
+# III. Some screenshots:
+## Screenshot of word2vec
 ![Alt text](https://raw.githubusercontent.com/sonvx/word2vecVN/master/images/w2vecVN_tb.png "Screenshot example of one given input")
-# Screenshot of spacy-n-fastext
+## Screenshot of spacy-n-fastext
 ![Alt text](https://raw.githubusercontent.com/sonvx/word2vecVN/master/images/spacy_example.png "Screenshot example of spacy and fastext")
       
 
