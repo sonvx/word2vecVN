@@ -18,7 +18,7 @@ Please CITE paper the Arxiv paper whenever ETNLP (or the pre-trained embeddings)
 
 ```
 @article{vu:2019n,
-  title={ETNLP: A Toolkit for Extraction, Evaluation and Visualization of Pre-trained Word Embeddings},
+  title={ETNLP: A Visual-Aided Systematic Approach to Select Pre-Trained Embeddings for a Downstream Task},
   author={Xuan-Son Vu, Thanh Vu, Son N. Tran, Lili Jiang},
   journal={In: Proceedings of the International Conference Recent Advances in Natural Language Processing (RANLP)},
   year={2019}
