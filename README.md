@@ -1,7 +1,7 @@
 # I. word2vecVN
 Word2Vec models for Vietnamese
 ## Download models:
-- Model trained on Vietnamese Wiki: [click here](https://drive.google.com/open?id=0B1GKSX6YCHXlakkzQ2plZVdUUE0).
+- Model trained on Vietnamese Wiki: [click here](https://thiaisotajppub.s3-ap-northeast-1.amazonaws.com/publicfiles/wiki.vi.model.bin.gz).
 - Model trained on Le et al.'s data (window-size 5, 400 dims): [click here](https://thiaisotajppub.s3-ap-northeast-1.amazonaws.com/publicfiles/baomoi.model.bin).
 - Model trained on Le et al.'s data (window-size 2, 300 dims): [click here](https://thiaisotajppub.s3-ap-northeast-1.amazonaws.com/publicfiles/baomoi.window2.vn.model.bin.gz).
 ## Visualization:
